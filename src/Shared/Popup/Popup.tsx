@@ -31,7 +31,6 @@ function Popup({
     borderRadius = 25,
     isFullScreen = false,
     isShowHeader = true,
-    childClassName,
     containerClassName,
     children,
 

@@ -1,5 +1,3 @@
-import React, { useEffect } from 'react';
-
 import { CircularProgress } from '@mui/material';
 
 interface ISpinner {

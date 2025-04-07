@@ -93,8 +93,8 @@ export default function Sidebar(props: Props) {
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
   const [sidebaritem, setSidebarItem] = React.useState<any[]>([])
-  const [showHideNavbar, setShowHideNavbar] = React.useState<boolean>(true);
-  const [isClosing, setIsClosing] = React.useState(false);
+  const [showHideNavbar] = React.useState<boolean>(true);
+  const [isClosing] = React.useState(false);
   const [isdropdownopen, setisDropdownOpen] = React.useState(false)
 
 
